@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #6ab7bd;
+    --secondary-color: #f99645;
+    --bg-light-color: #eef5f6b7;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: 0;
+}
+.btn-primary:hover {
+    background-color: #59989c;
+}
+
+.actions-btns a:nth-child(1) {
+    background-color: var(--secondary-color);
+    color: white;
+}
+.py-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#hero {
+    background-color: var(--bg-light-color);
+}
+.buy-btn {
+    color: var(--primary-color);
+}
+.card.product {
+    background-color: var(--bg-light-color);
+}
+ .card.product .card-img-top {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+ }
