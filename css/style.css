@@ -10,6 +10,7 @@
     background-color: var(--primary-color);
     border: 0;
 }
+
 .btn-primary:hover {
     background-color: #59989c;
 }
@@ -18,22 +19,51 @@
     background-color: var(--secondary-color);
     color: white;
 }
+
 .py-6 {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+#contacts,
+#aboutus,
 #hero {
     background-color: var(--bg-light-color);
 }
+
 .buy-btn {
     color: var(--primary-color);
 }
+
 .card.product {
     background-color: var(--bg-light-color);
 }
- .card.product .card-img-top {
+
+.card.product .card-img-top {
     width: 220px;
     display: block;
     margin: 0 auto;
- }
+}
+
+.testimonial-img img {
+    width: 160px;
+    height: 160px;
+    border: 10px solid var(--primary-color);
+}
+
+.testimonial h4 {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: #313030;
+}
+
+.footer-icons span {
+    border-color: var(--primary-color) !important;
+    border-style: dashed !important;
+}
+
+.footer-icons span i {
+    color: var(--primary-color);
+}
